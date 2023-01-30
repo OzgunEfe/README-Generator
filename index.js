@@ -29,9 +29,11 @@ const questions = [
       "Usage: \n\n(Provide instructions and examples for use. Include screenshots as needed)",
   },
   {
+    type: "list",
     name: "license",
     message:
       "License: \n\n(The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to (https://choosealicense.com/))",
+    choices: ["Apache License 2.0", "MIT License", "IBM Public License Version 1.0", "Mozilla Public License 2.0", "The Unlicense"]
   },
   {
     name: "contributing",
@@ -44,8 +46,12 @@ const questions = [
       "Tests: \n\n(Go the extra mile and write tests for your application. Then provide examples on how to run them here): ",
   },
   {
-    name: "questions",
-    message: "Questions: ",
+    name: "gitHub",
+    message: "Enter your GitHub account name: ",
+  },
+  {
+    name: "email",
+    message: "Enter your email address: ",
   },
 ];
 

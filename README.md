@@ -6,14 +6,14 @@
   This app generates README file
 
   ## Table of Contents
-  - [Installation](#Installation)
-  - [Usage](#Usage)
-  - [License](#License)
-  - [Contributing](#Contributing)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributing](#contributing)
 
   
   ### Installation
-  some installation info here
+  Some installation info here
 
   
   ### Usage
@@ -21,15 +21,19 @@
 
   
   ### License
-  MIT License
+  [![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0) IBM Public License Version 1.0
 
   
   ### Contributing
-  Thanks for the Ozgun
+  Thanks for Ozgun
 
   
 
-  
   ### Questions
-  Some questions here
+  GitHub Account: [OzgunEfe](
+    https://github.com/OzgunEfe
+    ) 
+  You can reach me at my [e-mail](
+    ozgunefe@gmail.com
+    ) address.
 
