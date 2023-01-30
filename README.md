@@ -1,39 +1,11 @@
+## README Generator
 
-  # New Project
+This app works with ES6 & Node.js and generates a README file according to user inputs.
 
-  ## README Generator
-
-  This app generates README file
-
-  ## Table of Contents
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [License](#license)
-  - [Contributing](#contributing)
-
-  
-  ### Installation
-  Some installation info here
-
-  
-  ### Usage
-  Some usage info here
-
-  
-  ### License
-  [![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0) IBM Public License Version 1.0
-
-  
-  ### Contributing
-  Thanks for Ozgun
-
-  
-
-  ### Questions
-  GitHub Account: [OzgunEfe](
-    https://github.com/OzgunEfe
-    ) 
-  You can reach me at my [e-mail](
-    ozgunefe@gmail.com
-    ) address.
-
+### Screenshots
+#### Terminal
+![Terminal](./Screenshot/Terminal.png)
+#### Raw README file
+![Raw README file](./Screenshot/Raw-README-file.png)
+#### README file
+![README file](./Screenshot/README-file.png)

@@ -23,11 +23,12 @@ function generateMarkdown(data) {
 
   let test = "";
   if (data.test) {
-    questions = `
+    test = `
   ### Test
   ${data.test}`;
   }
 
+  // This section checks the license choices and shows related badges.
   let licenseBadge = "";
   switch (data.license) {
     case "Apache License 2.0":
@@ -65,17 +66,18 @@ function generateMarkdown(data) {
 
   let email = "";
   if (data.email) {
-    email = `
-    ${data.email}
-    `
+    email = `${data.email}`
   }
 
-
+  // This section sets the markdown layout.
   return `
+  ${licenseBadge}
+
   # ${data.title}
 
   ## ${data.sections_entitled}
 
+  ### Description
   ${data.description}
 
   ## Table of Contents
@@ -95,8 +97,9 @@ function generateMarkdown(data) {
   ${test}
 
   ### Questions
-  GitHub Account: [${data.gitHub}](${gitHub}) 
-  You can reach me at my [email](${email}) address.
+  GitHub Account: [${data.gitHub}](${gitHub})
+
+  You can reach me at my email address > ${email}
 
 `;
 }

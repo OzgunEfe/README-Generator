@@ -41,7 +41,7 @@ const questions = [
       "Contributing: \n\nIf you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The (https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.",
   },
   {
-    name: "tests",
+    name: "test",
     message:
       "Tests: \n\n(Go the extra mile and write tests for your application. Then provide examples on how to run them here): ",
   },
@@ -60,6 +60,10 @@ function init() {
   inquirer.prompt(questions).then((data) => {
     fs.appendFile("README.md", generateMarkdown(data), (err) => {
       if (err) return console.log(err);
+
+      console.log("-----------------------------------")
+      console.log(" README file created successfully! ")
+      console.log("-----------------------------------")
     });
   });
 }
